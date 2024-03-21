@@ -1,4 +1,7 @@
+import config.ConnectionFactory;
 import org.flywaydb.core.Flyway;
+
+import java.sql.*;
 
 public class ComputerServiceMain {
     public static void main(String[] args) {
