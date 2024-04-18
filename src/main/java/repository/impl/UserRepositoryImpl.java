@@ -49,7 +49,6 @@ public class UserRepositoryImpl implements UserRepository {
                         resultSet.getString("email"),
                         resultSet.getInt("department_id")
                 );
-                // Assuming you add a setId method to your User
                 users.add(user);
             }
         } catch (SQLException e) {
